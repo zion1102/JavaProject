@@ -14,7 +14,7 @@
     </parent>
     <groupId>ca.gbc.comp3095</groupId>
     <artifactId>SpringBootAssignment</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>SpringBootAssignment</name>
     <description>SpringBootAssignment</description>
     <properties>
@@ -22,7 +22,7 @@
     </properties>
     <scm>
         <developerConnection>scm:git:https://github.com/zion1102/JavaProject.git</developerConnection>
-        <tag>SpringBootAssignment-0.0.2</tag>
+        <tag>HEAD</tag>
     </scm>
     <dependencies>
 
