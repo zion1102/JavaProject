@@ -1,10 +1,11 @@
 package ca.gbc.comp3095.springbootassignment.services.map;
 
 import ca.gbc.comp3095.springbootassignment.model.Recipe;
+import ca.gbc.comp3095.springbootassignment.services.RecipeService;
 
 import java.util.Set;
 
-public class RecipeServiceMap extends AbstractMapService<Recipe, Long> {
+public class RecipeServiceMap extends AbstractMapService<Recipe, Long> implements RecipeService {
     @Override
     public Recipe findById(Long id) {
 
@@ -12,7 +13,12 @@ public class RecipeServiceMap extends AbstractMapService<Recipe, Long> {
     }
     @Override
     public Recipe save(Recipe object) {
-        return super.save(object.getId(), object);
+        return super.save(object);
+    }
+
+    @Override
+    public Set<Recipe> findALl() {
+        return null;
     }
 
 
