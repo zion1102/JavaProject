@@ -1,9 +1,11 @@
 package ca.gbc.comp3095.springbootassignment.services.map;
 
 import ca.gbc.comp3095.springbootassignment.model.Recipe;
+import org.springframework.stereotype.Service;
 
 import java.util.*;
 
+@Service
 public abstract class AbstractMapService<T extends Recipe, ID extends Long> {
     protected Map<Long, T> map = new HashMap<>();
 

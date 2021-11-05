@@ -14,8 +14,8 @@ public class DataLoader implements CommandLineRunner {
 
     private RecipeService recipeService;
 
-    public DataLoader() {
-        recipeService = new RecipeServiceMap();
+    public DataLoader(RecipeService recipeService) {
+        this.recipeService = recipeService;
     }
 
     @Override

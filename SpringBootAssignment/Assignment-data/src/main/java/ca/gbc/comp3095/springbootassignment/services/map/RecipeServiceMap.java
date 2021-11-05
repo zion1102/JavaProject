@@ -2,9 +2,11 @@ package ca.gbc.comp3095.springbootassignment.services.map;
 
 import ca.gbc.comp3095.springbootassignment.model.Recipe;
 import ca.gbc.comp3095.springbootassignment.services.RecipeService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class RecipeServiceMap extends AbstractMapService<Recipe, Long> implements RecipeService {
     @Override
     public Recipe findById(Long id) {
