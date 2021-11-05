@@ -21,6 +21,10 @@
     <properties>
         <java.version>11</java.version>
     </properties>
+    <scm>
+        <developerConnection>scm:git:https://github.com/zion1102/JavaProject.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
     <dependencies>
 
         <dependency>
