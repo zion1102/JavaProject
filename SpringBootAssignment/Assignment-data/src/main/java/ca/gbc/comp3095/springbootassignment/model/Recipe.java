@@ -1,6 +1,9 @@
 package ca.gbc.comp3095.springbootassignment.model;
 
-public class Recipe extends BaseEntity{
+
+import java.io.Serializable;
+
+public class Recipe implements Serializable {
 
     private Long id;
 
